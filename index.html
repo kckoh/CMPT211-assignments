@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cmpt assignment 1</title>
+</head>
+
+<body>
+
+    <!-- simple navbar with bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KYUNG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#favorites">FAVORITES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile -->
+    <div class="container-fluid bg-warning">
+        <div class="row justify-content-center">
+            <div class="text-center ">
+                <img src="./images/profile_img.jpg" class="rounded profile_img margin_about_me" alt="profile image">
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-3 text-center margin_about_me">
+                <h3> Kyung Cheol Koh</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center margin_about_me">
+                <h4>Computing Science Student at TWU</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center ">
+                <a class="btn btn-primary margin_about_me " href="https://github.com/kckoh?tab=repositories" role="button">Link to github</a>
+            </div>
+        </div>
+            
+    </div>
+
+    <!-- About me section -->
+    <div class="container-fluid" id="about">
+        <div class="row justify-content-center">
+            <div class="col-2 text-center margin_about_me">
+                <h3> About</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col margin_about_me">
+                <p> Hi, my name is Kyung Cheol Koh and I'm from South Korea. I'm currently studying Computing Science at Trinity Western University, which is located at Langley, BC Canada.</p>
+                <p>I am interested in many things like: </p>
+                <ul>
+                    <li>Soccer</li>
+                    <li>LOL</li>
+                    <li>Web Development</li>
+                    <li>Movies</li>
+                    <li>Cartoon</li>
+                    <li>Learning new technology</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+
+        <div class="container-fluid" id="skills">
+            <div class="row justify-content-center">
+                <div class="col-2 text-center margin_about_me">
+                    <h3> Skills</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col margin_about_me text-center">
+                    <p> A representation of my use in each skill</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col margin_about_me">
+                    <ul>
+                        <li>Web Development
+                            <ul>
+                                <li>Html</li>
+                                <li>CSS/Bootstrap</li>
+                                <li>Javscript</li>
+                                <li>Django - learning</li>
+                                <li>basic React</li>
+                            </ul>
+                        </li>
+
+                        <li>Mobile Development
+                            <ul>
+                                <li>Java</li>
+                                <li>Basic Kotlin</li>
+                                <li>Basic MVVM</li>
+                            </ul>
+                        </li>
+                        <li>Computer Vision
+                            <ul>
+                                <li>Python</li>
+                                <li>Opencv - learning</li>
+                            </ul>
+                        </li>
+                        <li>Basic C++ and C</li>
+                    </ul>
+                </div>
+        </div>
+
+
+
+        <!-- Favorite section -->
+            <div class="container-fluid" id="favorites">
+                <div class="row justify-content-center">
+                    <div class="col-2 text-center margin_about_me">
+                        <h3> Favorites</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col margin_about_me">
+                        <p> 3 Top Favorite Music </p>
+                        <table >
+                            <tr>
+                                <th>Artist Name</th>
+                                <th>Song</th>
+                                <th>Rank</th>
+                            </tr>
+                            <tr>
+                                <td>Frank Ocean</td>
+                                <td><a href="https://music.youtube.com/watch?v=ROgX9pXKPOg&list=OLAK5uy_kR5nATUuJR0fuXd5XabH2VFwT63oVlaMM">Close To You</a></td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Beenzino</td>
+                                <td><a href="https://music.youtube.com/watch?v=CDw9DpL_gNk&list=RDAMVMCDw9DpL_gNk">Aqua Man</a></td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>PREP</td>
+                                <td><a href="https://music.youtube.com/watch?v=WEiqrW6lRbQ&list=RDAMVMWEiqrW6lRbQ">Cheapest Flight</a></td>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col margin_about_me text-center">
+                        <p> Close To You by <em>Frank Ocean</em> </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ncqkC9Ob2ZI" frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+
+                <!-- Using strong and small formatting -->
+                <div class="row ">
+                    <div class="col margin_about_me text-center">
+                        <pre>
+I will be honest, I wasn't devastated
+But you could've held my hand through this, baby
+In my mind, I didn't need
+Warned your ex
+I run my hands through what's left
+But we're getting older, baby
+How much longer baby?
+Why am I preaching?
+To this choir, to the saved kids
+Just like mine versions of these belong to you
+After a while
+They're keeping me <strong>close to you</strong>
+<small>
+(Just like me, they long to be Close to you)
+</small>
+
+                        </pre>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- No backend implemented yet -->
+            <!-- Contact Section -->
+                <div class="container-fluid" id="contact">
+                    <div class="row justify-content-center">
+                        <div class="col-2 text-center margin_about_me">
+                            <h3> Contact</h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4 margin_about_me">
+                            <form >
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+    
+<!-- Footer Section -->
+    <div class="footer" >
+        <p>2021 <em>KyungCheol Koh</em> All Rights Reserved.</p>
+        <p><a href="kyungcheolkoh@gmail.com">kyungcheolkoh@gmail.com</a></p>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

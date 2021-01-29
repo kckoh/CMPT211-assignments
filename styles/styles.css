@@ -1,0 +1,39 @@
+/* responsive typography */
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/* Footer css */
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  padding: none;
+}
+
+.profile_img {
+  max-width: 15%;
+}
+
+.margin_about_me {
+  margin: 10px;
+}
